@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    >
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+    <Button
+        android:text="通用文字识别"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/general_basic_button"
+        tools:ignore="HardcodedText"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passport_button"
+            android:text="护照识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numbers_button"
+            android:text="数字识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qrcode_button"
+            android:text="二维码识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/business_card_button"
+            android:text="名片识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/handwritting_button"
+            android:text="手写识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lottery_button"
+            android:text="彩票识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vat_invoice_button"
+            android:text="增值税发票识别"
+            tools:ignore="HardcodedText"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_button"
+            android:text="自定义模板识别"
+            tools:ignore="HardcodedText"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

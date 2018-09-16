@@ -1,0 +1,576 @@
+<resources>
+    <string name="app_name">BillWiz</string>
+    <string name="app_splash_name">BillWiz V1.0.0</string>
+    <string name="app_info">
+        BillWiz&#13;&#10;
+        Copyright © Nightonke
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="profile">PROFILE</string>
+    <string name="feed">FEED</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="title_activity_account_book">AccountBook</string>
+    <string name="title_activity_tag_setting">TagSetting</string>
+
+    <string name="custom_view">Custom view</string>
+    <string name="tags_view">Tags view</string>
+    <string name="months_view">Months view</string>
+    <string name="list_view">List view</string>
+    <string name="expense_report">Expense report</string>
+    <string name="sync">Sync to server</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+
+    <string name="today_empty">New day!</string>
+    <string name="yesterday_empty">No records.</string>
+    <string name="this_week_empty">New week!</string>
+    <string name="last_week_empty">No records.</string>
+    <string name="this_month_empty">New month!</string>
+    <string name="last_month_empty">No records.</string>
+    <string name="this_year_empty">Happy new year!</string>
+    <string name="last_year_empty">No records.</string>
+
+    <string name="january_short">Jan.</string>
+    <string name="february_short">Feb.</string>
+    <string name="march_short">Mar.</string>
+    <string name="april_short">Apr.</string>
+    <string name="may_short">May</string>
+    <string name="june_short">June</string>
+    <string name="july_short">July</string>
+    <string name="august_short">Aug.</string>
+    <string name="september_short">Sept.</string>
+    <string name="october_short">Oct.</string>
+    <string name="november_short">Nov.</string>
+    <string name="december_short">Dec.</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">Marc</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="today_date_string">today</string>
+    <string name="yesterday_date_string">yesterday</string>
+    <string name="this_week_date_string">this week</string>
+    <string name="last_week_date_string">last week</string>
+    <string name="this_month_date_string">this month</string>
+    <string name="last_month_date_string">last month</string>
+    <string name="this_year_date_string">this year</string>
+    <string name="last_year_date_string">last year</string>
+
+    <string name="at">at </string>
+    <string name="on">on </string>
+    <string name="in">in </string>
+
+    <string name="o_clock">o\'clock</string>
+
+    <string name="monday_short">MON</string>
+    <string name="tuesday_short">TUE</string>
+    <string name="wednesday_short">WED</string>
+    <string name="thursday_short">THU</string>
+    <string name="friday_short">FRI</string>
+    <string name="saturday_short">SAT</string>
+    <string name="sunday_short">SUN</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="last">last </string>
+
+    <string name="check">check</string>
+
+    <string name="today_view_today">Today</string>
+    <string name="today_view_yesterday">Yesterday</string>
+    <string name="today_view_this_week">This Week</string>
+    <string name="today_view_last_week">Last Week</string>
+    <string name="today_view_this_month">This Month</string>
+    <string name="today_view_last_month">Last Month</string>
+    <string name="today_view_this_year">This Year</string>
+    <string name="today_view_last_year">Last Year</string>
+
+    <string name="get">Get!</string>
+
+    <string name="tag_sum_pie">Sum Pie</string>
+    <string name="tag_sum_histogram">Sum Histogram</string>
+    <string name="tag_meal">Dinner</string>
+    <string name="tag_closet">Clothing &amp; Footwear</string>
+    <string name="tag_home">Home</string>
+    <string name="tag_traffic">Traffic</string>
+    <string name="tag_vehicle_maintenance">Vehicle Maintenance</string>
+    <string name="tag_book">Book</string>
+    <string name="tag_hobby">Hobby</string>
+    <string name="tag_internet">Internet</string>
+    <string name="tag_friend">Friend</string>
+    <string name="tag_education">Education</string>
+    <string name="tag_entertainment">Entertainment</string>
+    <string name="tag_medical">Medical</string>
+    <string name="tag_insurance">Insurance</string>
+    <string name="tag_donation">Donation</string>
+    <string name="tag_sport">Sport</string>
+    <string name="tag_snack">Snack</string>
+    <string name="tag_music">Music</string>
+    <string name="tag_fund">Fund</string>
+    <string name="tag_drink">Drink</string>
+    <string name="tag_fruit">Fruit</string>
+    <string name="tag_film">Film</string>
+    <string name="tag_baby">Baby</string>
+    <string name="tag_partner">Partner</string>
+    <string name="tag_housing_loan">Housing Loan</string>
+    <string name="tag_pet">Pet</string>
+    <string name="tag_telephone_bill">Telephone Bill</string>
+    <string name="tag_travel">Travel</string>
+    <string name="tag_lunch">Lunch</string>
+    <string name="tag_breakfast">Breakfast</string>
+    <string name="tag_midnight_snack">Midnight Snack</string>
+
+    <string name="password_tip">Input password to account book</string>
+
+    <string name="toast_no_tag">Just...give me a tag~</string>
+    <string name="toast_no_money">How much U spend?</string>
+    <string name="toast_password_wrong">Ooops...That\'s wrong!</string>
+    <string name="toast_password_correct">That\'s it!</string>
+    <string name="toast_save_successfully">Save successfully!</string>
+    <string name="toast_save_failed">Ooops...Save fail!</string>
+    <string name="toast_press_again_to_exit">Press again to say goodbye</string>
+
+    <string name="sort_tags">Sort Tags</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+    <string name="search">Search</string>
+
+    <string name="tag_empty">No records!</string>
+
+    <string name="undo">Undo</string>
+
+    <string name="deleting">Delete this BillWizRecord</string>
+    <string name="title_activity_edit_record">EditRecordActivity</string>
+
+    <string name="from_invalid">The starting time is invalid!</string>
+    <string name="to_invalid">The ending time is invalid!</string>
+
+    <string name="account_book_name_hint">Account book title</string>
+    <string name="user_name_hint">User name</string>
+    <string name="user_email_hint">User email</string>
+
+    <string name="test_user_name">Nightonke</string>
+    <string name="test_user_email">Nightonke@gmail.com</string>
+
+    <string name="expense_text">Expense</string>
+    <string name="records_text">Records</string>
+
+    <string name="month_limit_enable">Max expense limit monthly</string>
+    <string name="month_limit">Max expense monthly</string>
+    <string name="month_color_remind">Color remind</string>
+    <string name="month_warning">Color remind when expense over</string>
+    <string name="month_color_remind_type">Remind color</string>
+    <string name="month_forbidden">Forbidden BillWizRecord money when out of limit</string>
+
+    <string name="auto_back_up">Auto backup records</string>
+
+    <string name="account_book_name">Name of account book</string>
+
+    <string name="change_password">Change password</string>
+
+    <string name="sort_tag">Sort tags</string>
+
+    <string name="whether_show_picture">Show pictures in tags view account book</string>
+
+    <string name="whether_show_circle">Doughnut-shape pie chart</string>
+
+    <string name="default_user_name">You haven\'t logged on! After logging on, </string>
+    <string name="default_user_email">you can save your records to cloud. Click me to do so!</string>
+
+    <string name="set_account_book_dialog_title">Name your account book!</string>
+
+    <string name="submit">Submit!</string>
+    <string name="cancel">Cancel</string>
+    <string name="custom">Custom</string>
+    <string name="back">Back</string>
+
+    <string name="different_password">Password different!</string>
+    <string name="set_password_successfully">You did it!</string>
+
+    <string name="password_tip_0">Verify your old password</string>
+    <string name="password_tip_1">Input your new password</string>
+    <string name="password_tip_2">Input again to verify</string>
+
+    <string name="set_month_expense_dialog_title">Be thrifty!</string>
+    <string name="set_warning_expense_dialog_title">Set your target</string>
+    <string name="set_remind_color_dialog_title">Colors!</string>
+    <string name="set_remind_color_dialog_sub_title">Shades of Colors!</string>
+
+    <string name="this_month">This month:</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="login_or_register">Do you have a BillWiz account?</string>
+    <string name="login">Sure</string>
+    <string name="register">Not yet</string>
+
+    <string name="register_user_name">Show me a cool user name!</string>
+    <string name="register_user_email">You can regain your password by email.</string>
+    <string name="register_password">I can keep secret!</string>
+    <string name="go_register">Register!</string>
+
+    <string name="welcome_back">Welcome back!</string>
+
+    <string name="hi">Hi!&#160;</string>
+    <string name="log_out">Log out</string>
+    <string name="whether_logout">Are you sure to log out?</string>
+
+    <string name="go_login">Login!</string>
+    <string name="login_user_name">Tell me your register name or email.</string>
+    <string name="login_password">Tell me your password (be quiet!).</string>
+
+    <string name="change_account_book_name_successfully">Change name successfully</string>
+    <string name="change_account_book_name_fail">Change name fail</string>
+    <string name="change_and_update_account_book_name_successfully">
+        Change name and update to server successfully
+    </string>
+    <string name="change_and_update_account_book_name_fail">
+        Change name but update to server fail
+    </string>
+
+    <string name="register_successfully">Welcome to BillWiz!\n</string>
+    <string name="register_fail">Register fail!\n</string>
+    <string name="login_successfully">Welcome back!\n</string>
+    <string name="login_fail">Login fail!\n</string>
+    <string name="user_name_exist">User name already exists</string>
+    <string name="user_email_exist">Email already exists</string>
+    <string name="user_mobile_exist">
+        This mobile has been registered!\n
+        Please use the original account.
+    </string>
+    <string name="network_disconnection">Network disconnection</string>
+
+    <string name="user_name_or_password_incorrect">User doesn\'t exist or password incorrect!</string>
+    <string name="name_or_email_inexist">The user name or email doesn\'t exist!</string>
+    <string name="password_wrong">Password is incorrect!</string>
+
+    <string name="log_out_successfully">Log out successfully!</string>
+
+    <string name="sync_dialog_title">Sync?</string>
+    <string name="sync_dialog_content">
+        You have already synchronized your settings to BillWiz server.
+        Would you want to synchronize your old settings to local?
+    </string>
+    <string name="sync_dialog_sync_to_local">Sync old settings to local</string>
+    <string name="sync_dialog_sync_to_server">Sync new settings to server</string>
+    <string name="sync_to_local_successfully_dialog_title">Sync successfully</string>
+    <string name="sync_to_local_successfully_dialog_content">
+        Your old settings has been synchronized to local.
+    </string>
+    <string name="your_current_account_book_password_is">Your current account book password is changed to </string>
+    <string name="sync_to_server_successfully">Sync settings to server successfully!</string>
+    <string name="sync_to_server_failed">Sync settings to server failed!\n</string>
+
+    <string name="change_logo_title">Change logo!</string>
+    <string name="change_logo_content">Select a picture to do so.</string>
+    <string name="from_camera">From camera</string>
+    <string name="from_gallery">From gallery</string>
+
+    <string name="login_first_title">Login!</string>
+    <string name="login_first_content">Please login or register first!</string>
+    <string name="ok">OK!</string>
+
+    <string name="first_time_set_password">
+        Hey!\nWelcome to use BillWiz!\nTo protect your account book,\n
+        you need a password to do so.
+    </string>
+    <string name="first_time_set_password_again">
+        You gonna do it!\n
+        Just input your password again!
+    </string>
+
+    <string name="change_password_title">Change Password</string>
+
+    <string name="remark_hint">Add remarks for your record</string>
+
+    <string name="save_successfully_online">Save and sync to cloud successfully!</string>
+    <string name="save_successfully_locale">Save successfully!</string>
+    <string name="save_failed_online">Save successfully!\nSync to cloud failed!</string>
+    <string name="save_failed_locale">Save failed!</string>
+
+    <string name="delete_successfully_online">Delete and sync to cloud successfully!</string>
+    <string name="delete_successfully_locale">Delete successfully!</string>
+    <string name="delete_failed_online">Delete successfully!\nSync to cloud failed!</string>
+    <string name="delete_failed_locale">Delete failed!</string>
+
+    <string name="update_successfully_online">Update and sync to cloud successfully!</string>
+    <string name="update_successfully_locale">Update successfully!</string>
+    <string name="update_failed_online">Update successfully!\nSync to cloud failed!</string>
+    <string name="update_failed_locale">Update failed!</string>
+
+    <string name="guide">Guide</string>
+
+    <string name="hey">Hello!</string>
+    <string name="thank">Thanks for using BillWiz.</string>
+    <string name="me">I\'m an android developer.</string>
+    <string name="github">All codes here: github.com/Nightonke/BillWiz</string>
+    <string name="blog">www.baidu.com</string>
+    <string name="email">Email: nightonke@outlook.com</string>
+    <string name="thank_again">If you get any questions about BillWiz or me, just mail me!</string>
+
+    <string name="login_button">Sign in/Sign up</string>
+    <string name="logout_button">Sign out</string>
+
+    <string name="login_idle">Sign in</string>
+    <string name="login_complete">Sign in successfully</string>
+    <string name="login_error">Sign in failed, tap to retry</string>
+
+    <string name="register_idle">Sign up</string>
+    <string name="register_complete">Sign up successfully</string>
+    <string name="register_error">Sign up failed, tap to retry</string>
+
+    <string name="saving_tags_title">Saving...</string>
+    <string name="saving_tags_content">Saving tags, please wait.</string>
+
+    <string name="tag_number"> tags</string>
+
+    <string name="whether_save">Save?</string>
+    <string name="whether_save_tag">Save your changes for the tags?</string>
+
+    <string name="save_y">Save</string>
+    <string name="save_n">Don\'t save</string>
+
+    <string name="custom_view_help"> ● You can choose the range to show records.</string>
+
+    <string name="change_logo_tip">You can change your avatar in settings</string>
+    <string name="login_tip">You can sign in or up in settings</string>
+
+    <string name="select_title"> ● Conditions</string>
+    <string name="select_expense"> ● Expense Conditions:</string>
+    <string name="select_tag"> ● Tag Conditions:</string>
+    <string name="select_time"> ● Time Conditions:</string>
+    <string name="set_select">Set</string>
+    <string name="any">No limit</string>
+    <string name="select">Filter</string>
+
+    <string name="set_expense">Expense Range</string>
+    <string name="set_left_expense">Set the lower bound of expense(include).</string>
+    <string name="set_right_expense">Set the upper bound of expense(include).</string>
+
+    <string name="set_left_calendar">Start Time</string>
+    <string name="set_right_calendar">End Time</string>
+
+    <string name="set_tag">Tag</string>
+    <string name="set_tag_kind">Set the tag of the records.</string>
+
+    <string name="selecting_title">Filtering</string>
+    <string name="selecting_content">Filtering records, please wait...</string>
+
+    <string name="input_remark_to_search">Input remarks to search</string>
+
+    <string name="loading">Loading...</string>
+    <string name="loaded">Loading completed</string>
+
+    <string name="update_title">Update</string>
+    <string name="update_content_too_old">Your BillWiz version is too old to use.</string>
+    <string name="update_content">BillWiz, keep moving.</string>
+    <string name="update_never">don\'t remind</string>
+    <string name="update_cancel">cancel</string>
+    <string name="update_ok">Update</string>
+    <string name="downloading_title">Downloading apk…</string>
+    <string name="downloading_content">Downloading newest BillWiz, please wait.</string>
+
+    <string name="current_version">Current version: </string>
+    <string name="can_update">NEW</string>
+    <string name="checking_update">Checking new version…</string>
+    <string name="is_newest_version">Current version is newest</string>
+
+    <string name="sync_querying_title">Sync</string>
+    <string name="sync_querying_content">Checking sync information. Please wait.</string>
+    <string name="sync_querying_fail_title">Sync Failed</string>
+    <string name="sync_querying_fail_content">Internet disconnected. Check sync information failed.</string>
+    <string name="sync_choose_title">Sync</string>
+    <string name="sync_info_cloud_record_0">You have&#160;</string>
+    <string name="sync_info_cloud_record_1">&#160;record(s) in cloud.&#160;</string>
+    <string name="sync_info_cloud_time_0">Your recently uploading operation time is&#160;</string>
+    <string name="sync_info_cloud_time_1">.&#160;</string>
+    <string name="sync_info_cloud_time_2">You haven\'t uploaded records to cloud.&#160;</string>
+    <string name="sync_info_mobile_record_0">You have&#160;</string>
+    <string name="sync_info_mobile_record_1">&#160;record(s) in mobile.&#160;</string>
+    <string name="sync_info_mobile_time_0">Your recently downloading operation time is&#160;</string>
+    <string name="sync_info_mobile_time_1">.&#160;</string>
+    <string name="sync_info_mobile_time_2">You haven\'t downloaded records to mobile.&#160;</string>
+    <string name="sync_choose_content">You can choose to upload the records in your mobile to cloud(the old records in cloud will be deleted) or to download the records in cloud to your mobile(the old records in mobile will be deleted).</string>
+    <string name="sync_to_mobile">From cloud to mobile</string>
+    <string name="sync_to_cloud">From mobile to cloud</string>
+    <string name="sure_to_mobile_0">Sure to sync&#160;</string>
+    <string name="sure_to_mobile_1">&#160;record(s) from cloud to mobile? Old records in mobile will be deleted.</string>
+    <string name="sure_to_cloud_0">Sure to sync </string>
+    <string name="sure_to_cloud_1">&#160;record(s) from mobile to cloud? Old records in cloud will be deleted.</string>
+    <string name="mobile_record_empty">There is no record in your mobile!</string>
+    <string name="cloud_record_empty">There is no record in cloud!</string>
+    <string name="syncing">Syncing</string>
+    <string name="uploading_0">Uploading No.</string>
+    <string name="uploading_1"> record. Please wait.</string>
+    <string name="downloading_0">Downloading No.</string>
+    <string name="downloading_1"> record. Please wait.</string>
+    <string name="sync_failed">Sync Failed</string>
+    <string name="uploading_fail_0">Sync failed for internet connection.&#160;</string>
+    <string name="uploading_fail_1"> record(s) has(have) been uploaded.</string>
+    <string name="downloading_fail_0">Sync failed for internet connection.&#160;</string>
+    <string name="downloading_fail_1"> record(s) has(have) been downloaded.</string>
+    <string name="sync_completely_title">Sync Completely</string>
+    <string name="sync_completely_content">Sync completely.</string>
+
+    <string name="ok_1">ok</string>
+
+    <string name="report_loading_select_list_title">Loading</string>
+    <string name="report_loading_select_list_content">Loading data. Please wait.</string>
+
+    <string name="report_select_list_title">Report Time</string>
+
+    <string name="report_view_help"> ● Expense Report</string>
+    <string name="report_view_records">records of</string>
+    <string name="report_view_tags">tags</string>
+    <string name="report_view_highest_tag"> ● Highest expense on tags</string>
+    <string name="report_view_highest_tag_show_more">Click for more</string>
+    <string name="report_view_highest_tag_show_less">Click to hide</string>
+    <string name="report_view_lowest_tag"> ● Lowest expense on tags</string>
+    <string name="report_view_lowest_tag_show_more">Click for more</string>
+    <string name="report_view_lowest_tag_show_less">Click to hide</string>
+    <string name="report_view_please_select_data">Please select time</string>
+    <string name="report_view_no_data">You don\'t have records!</string>
+    <string name="report_view_pie"> ● Tag pie chart</string>
+    <string name="report_view_line"> ● Time line chart</string>
+    <string name="report_view_highest_month"> ● Sort of months</string>
+    <string name="report_view_highest_month_show_more">Click for more</string>
+    <string name="report_view_highest_month_show_less">Click to hide</string>
+    <string name="report_view_highest_day"> ● Highest expense on days</string>
+    <string name="report_view_highest_day_show_more">Click for more</string>
+    <string name="report_view_highest_day_show_less">Click to hide</string>
+    <string name="report_view_lowest_day"> ● Lowest expense on days</string>
+    <string name="report_view_lowest_day_show_more">Click for more</string>
+    <string name="report_view_lowest_day_show_less">Click to hide</string>
+    <string name="report_view_average_day"> ● Day average</string>
+    <string name="report_view_average_month"> ● Month average</string>
+    <string name="report_view_foot">&#160;Expense Report</string>
+
+    <string name="help_BillWiz_title">BillWiz</string>
+    <string name="help_feedback_title">Feedback</string>
+    <string name="help_open_library_title">Open Library</string>
+    <string name="help_me_title">Me</string>
+
+    <string name="help_BillWiz_content_1"> ● BillWiz, Multi-view Accounting Application</string>
+    <string name="help_BillWiz_content_2">
+        ● You can do the accounting job easily and use a password to protect your account book.
+        Your account book\'s password will be set the first time you use BillWiz.
+        Swipe the numerical part to left to add some remarks for your records.
+        To check your account book, you can swipe down or click the menu icon in the top left corner.
+    </string>
+    <string name="help_BillWiz_content_3">
+        ● In the account book, you can find out a pie chart for your expenses today, yesterday, this week, last week, this month, last month, this year and last year.
+        Try to click the blocks of the pie chart or the bars of histogram for details.
+        All the charts in BillWiz can be clicked for details and there are some buttons near the charts to select a certain part(that\'s to small for click) in charts.
+        If you wanna get more views, just open the left drawer menu.
+    </string>
+    <string name="help_BillWiz_content_4">
+        ● In custom time view, you can check all the expenses in a special time span.
+        Click the button in the bottom right corner to set the time span.
+    </string>
+    <string name="help_BillWiz_content_5">
+        ● In the tag view, you can check all the expenses for different tags.
+        Open the left drawer menu and you can see all the tags in your account book.
+        Click a tag to jump to the expenses analyse for that tag.
+    </string>
+    <string name="help_BillWiz_content_6">
+        ● In the month view, you can check all the expenses in every month.
+        Let\'s check how much you spent and how many records you accounted.
+        Open the left drawer menu, there is a simple list for every month\'s expenses.
+        And just as in the tag view, you can click to jump to a certain month.
+    </string>
+    <string name="help_BillWiz_content_7">
+        ● In the list view, you can do some update and query job here.
+        Swipe a record left to edit and right to delete.
+        Open the left drawer to set some query conditions or click the search button in the top right corner to query according to remarks.
+    </string>
+    <string name="help_BillWiz_content_8">
+        ● In the report view, you can generate your month or year report here.
+    </string>
+    <string name="help_BillWiz_content_9">
+        ● After signing in, you can sync your records to BillWiz\'s server.
+    </string>
+    <string name="help_BillWiz_content_10">
+        ● You can change some default settings.
+        For instance, the name of your account book, the order of tags, whether remind you the limit of the month expense.
+        If you enable the color remind function, after you account a record which made the expenses of this month is large that warning value, the color of interface will change.
+    </string>
+    <string name="help_BillWiz_content_11"> ● Thanks for using BillWiz</string>
+
+    <string name="help_feedback_content_1"> ● It\'s so nice to hear from you. If you wanna send me some images or other non-text feedback, my e-mail is Nightonke@outlook.com.</string>
+    <string name="help_feedback_content_2">Let\'s improve BillWiz</string>
+    <string name="help_feedback_hint">Write feedback here</string>
+    <string name="help_feedback_edit">Edit</string>
+    <string name="help_feedback_send">Send</string>
+    <string name="help_feedback_dialog_title">Words Invalid</string>
+    <string name="help_feedback_dialog_content">The number of words is invalid(1~400).</string>
+    <string name="help_feedback_sent">Sending feedback...</string>
+    <string name="help_feedback_sent_fail">Send feedback failed!</string>
+    <string name="help_feedback_sent_successfully">Send feedback successfully</string>
+    <string name="help_feedback_dialog_title_1">Send Feedback</string>
+    <string name="help_feedback_dialog_content_1">You have edited feedback but haven\'t sent. Would you like to send it?</string>
+    <string name="help_feedback_dialog_send">send</string>
+    <string name="help_feedback_dialog_dont_send">don\'t send</string>
+
+    <string name="help_about_content_0"> ● About Us</string>
+    <string name="help_about_content_1">萌新忘带酱油瓶</string>
+    <string name="help_about_content_2">https://github.com/YuhsiHu/BillWiz</string>
+    <string name="help_about_content_3"></string>
+    <string name="help_about_content_4"></string>
+    <string name="help_about_content_5"> ● Open Source Lib</string>
+    <string name="help_about_content_6">daimajia.androidanimations</string>
+    <string name="help_about_content_7">balysv:material-ripple</string>
+    <string name="help_about_content_8">rengwuxian.materialedittext</string>
+    <string name="help_about_content_9">jakewharton:butterknife</string>
+    <string name="help_about_content_10">florent37:materialviewpager</string>
+    <string name="help_about_content_11">dmytrodanylyk.circular-progress-button</string>
+    <string name="help_about_content_12">wdullaer:materialdatetimepicker</string>
+    <string name="help_about_content_13">melnykov:floatingactionbutton</string>
+    <string name="help_about_content_14">sacot41:scviewpager</string>
+    <string name="help_about_content_15">daimajia.slider</string>
+    <string name="help_about_content_16">aakira:expandable-layout</string>
+    <string name="help_about_content_17">Yalantis:GuillotineMenu-Android</string>
+    <string name="help_about_content_18">lecho:hellocharts</string>
+    <string name="help_about_content_19">nispok:snackbar</string>
+    <string name="help_about_content_20">steamcrafted:materialiconlib</string>
+    <string name="help_about_content_21">johnpersano:supertoasts</string>
+    <string name="help_about_content_22">squareup.leakcanary</string>
+    <string name="help_about_content_23">h6ah4i.android.widget.advrecyclerview:advrecyclerview</string>
+    <string name="help_about_content_24">hdodenhof:circleimageview</string>
+    <string name="help_about_content_25">miguelcatalan:materialsearchview</string>
+    <string name="help_about_content_26">wnafee:vector-compat</string>
+    <string name="help_about_content_27">danoz:recyclerviewfastscroller</string>
+    <string name="help_about_content_28">afollestad.material-dialogs</string>
+    <string name="help_about_content_29">rey5137:material</string>
+    <string name="help_about_content_30">bmob.android</string>
+    <string name="help_about_content_31">koushikdutta.ion</string>
+    <string name="help_about_content_32">tencent.bugly</string>
+    <string name="help_about_content_33">ozodrukh:CircularReveal</string>
+
+    <string name="copy_to_clipboard">Copied e-mail to clipboard</string>
+
+    <string name="show_text_0">30 Tags</string>
+    <string name="show_text_1">Multi Charts</string>
+    <string name="show_text_2">Cloud Sync</string>
+    <string name="show_text_3">Intelligent Reminder</string>
+</resources>

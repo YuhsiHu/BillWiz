@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    }
+]

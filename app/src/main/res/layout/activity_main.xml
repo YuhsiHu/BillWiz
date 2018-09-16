@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/guillotine_background"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guillotine_actionbar_background_view_height"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            style="@style/Toolbar">
+
+            <ImageView
+                android:id="@+id/content_hamburger"
+                style="@style/ImageView.Hamburger"
+                android:src="@drawable/ic_menu"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                />
+
+            <TextView
+                android:id="@+id/guillotine_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="BillWiz"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+
+            <TextView
+                android:id="@+id/text_00"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_gravity="right"
+                android:text="00"
+                android:textColor="#2196F3" />
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/camera" />
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                >
+
+                <LinearLayout
+                    android:id="@+id/edit_view_ly"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <com.billwiz.admin.billwiz.ui.BillWizScrollableViewPager
+                        android:id="@+id/edit_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+                <com.billwiz.admin.billwiz.ui.MyGridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:numColumns="3"
+                    android:verticalSpacing="1sp"
+                    android:horizontalSpacing="1sp"
+                    android:stretchMode="columnWidth"
+                    android:background="#ffffff"
+                    android:isScrollContainer="false"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/toolbar_dropshadow" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

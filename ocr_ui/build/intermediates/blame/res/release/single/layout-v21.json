@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android\\BillWiz\\ocr_ui\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\073628a02c73a6fb470bd9f3d9350cc9\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/left_drawer"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_height="160dp"
+        android:layout_width="match_parent"
+        >
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <LinearLayout
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/default_user_logo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                app:civ_border_width="0dp"
+                app:civ_border_color="#ffffff"/>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textSize="12sp"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

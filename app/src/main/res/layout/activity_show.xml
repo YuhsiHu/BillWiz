@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.billwiz.admin.billwiz.Activity.ShowActivity">
+
+    <com.dev.sacot41.scviewpager.SCViewPager
+        android:id="@+id/viewpager_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.dev.sacot41.scviewpager.SCViewPager>
+
+    <com.dev.sacot41.scviewpager.DotsView
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dotsview_main"
+        />
+
+    <ImageView
+        android:id="@+id/icon_4"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:src="@drawable/breakfast_icon"
+        />
+
+    <ImageView
+        android:id="@+id/icon_11"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hobby_icon"
+        />
+
+    <TextView
+        android:id="@+id/text_0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/show_text_0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/icon_12"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:src="@drawable/insurance_icon"
+        />
+
+    <ImageView
+        android:id="@+id/icon_19"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:src="@drawable/partner_icon"
+        />
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/pie"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        >
+    </lecho.lib.hellocharts.view.PieChartView>
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+    </lecho.lib.hellocharts.view.LineChartView>
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/histogram"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        >
+    </lecho.lib.hellocharts.view.ColumnChartView>
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/show_text_1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cloud"
+        />
+
+    <ImageView
+        android:id="@+id/mobile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mobile"
+        />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/show_text_2"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/remind_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cocoin_splash_1"
+        />
+
+    <ImageView
+        android:id="@+id/remind_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cocoin_splash_2"
+        />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/show_text_3"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <View
+        android:id="@+id/background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        />
+
+    <com.billwiz.admin.billwiz.ui.util.BillWizUnscrollableViewPager
+        android:id="@+id/viewpager"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/status_bar"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/Toolbar">
+
+            </android.support.v7.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:text="@string/app_name"
+                />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_dropshadow" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/status_bar"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        />
+
+    <com.billwiz.admin.billwiz.ui.MyGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:verticalSpacing="1sp"
+        android:horizontalSpacing="1sp"
+        android:stretchMode="columnWidth"
+        android:background="#ffffff"
+        android:isScrollContainer="false"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

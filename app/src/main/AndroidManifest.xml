@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.billwiz.admin.billwiz">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".Activity.BillWizApplication"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeMain" />
+        <activity
+            android:name=".Activity.EditRecordActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".Activity.RecognizeMain"></activity>
+        <activity
+            android:name=".Activity.AccountBookCustomViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AccountBookReportViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AccountBookListViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AccountBookMonthViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AccountBookTagViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AccountBookTodayViewActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.TagSettingActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.HelpActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".Activity.ShowActivity"></activity>
+        <activity android:name=".Activity.EditPasswordActivity"></activity>
+        <activity android:name=".Activity.AccountBookSettingActivity"></activity>
+
+    </application>
+
+</manifest>

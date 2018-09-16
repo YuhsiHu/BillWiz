@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:recyclerviewfastscroller="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_swipe_item_neutral"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/status_bar_view"
+                android:layout_gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#2196F3"
+                />
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                >
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    app:contentInsetStart="0dp"
+                    style="@style/Toolbar">
+
+                </android.support.v7.widget.Toolbar>
+
+                <LinearLayout
+                    android:id="@+id/title_ly"
+                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/title_expense"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:text="¥18890"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="top|right"
+                        />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:text="/"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/title_sum"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:text="198's"
+                        android:layout_marginLeft="-3dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:gravity="bottom|left"
+                        />
+
+                </LinearLayout>
+
+                <com.miguelcatalan.materialsearchview.MaterialSearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/search"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingRight="-10dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        style="@style/myRecyclerViewStyle"
+                        android:scrollbars="none"
+                        />
+
+                    <xyz.danoz.recyclerviewfastscroller.vertical.VerticalRecyclerViewFastScroller
+                        android:id="@+id/fast_scroller"
+                        android:layout_width="24dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:paddingRight="@dimen/margin_small"
+                        android:paddingEnd="@dimen/margin_small"
+
+                        recyclerviewfastscroller:rfs_barColor="@color/fastScrollBarColor"
+                        recyclerviewfastscroller:rfs_handleBackground="@drawable/my_fast_scroller_rounded"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentEnd="true" />
+
+                    <TextView
+                        android:id="@+id/empty_tip"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/yesterday_empty"
+                        android:textSize="15sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/my_blue"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/toolbar_dropshadow" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include layout="@layout/drawer_list_view" />
+
+</android.support.v4.widget.DrawerLayout>
